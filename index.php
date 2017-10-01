@@ -9,7 +9,7 @@ if (isset($_GET['controller']) && isset($_GET['action'])) {
     $action = $_GET['action'];
 } else {
     $controller = 'Drawing';
-    $action = 'index';
+    $action = 'basic';
 }
 
 function call($controller, $action)

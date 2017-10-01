@@ -9,9 +9,10 @@
 namespace controllers;
 
 
-class DrawingController
+class DrawingController extends Controller
 {
-    public function actionIndex() {
+    public function actionBasic()
+    {
 
         $shapes = [
             ['type' => 'circle', 'params' => ['color' => '#ddddd', 'colorType' => 'full', 'size' => 0, 'borderType' => 'thin']],
@@ -20,7 +21,28 @@ class DrawingController
         ];
 
         $graphic_editor = new \models\GraphicEditor();
-        echo $graphic_editor->draw($shapes);
+        $content = $graphic_editor->draw($shapes);
+
+        $this->render('basic', [
+            'content' => $content
+        ]);
+    }
+
+    public function actionIndex()
+    {
+
+        $shapes = [
+            ['type' => 'circle', 'params' => ['color' => '#ddddd', 'colorType' => 'full', 'size' => 0, 'borderType' => 'thin']],
+            ['type' => 'circle', 'params' => ['color' => '#ddddd', 'colorType' => 'gradient', 'size' => 3, 'borderType' => 'wide']],
+            ['type' => 'square', 'params' => ['color' => '#gfeee', 'colorType' => 'gradient', 'size' => 5, 'borderType' => 'wide']]
+        ];
+
+        $graphic_editor = new \models\GraphicEditor();
+        $content = $graphic_editor->draw($shapes);
+
+        $this->render('basic', [
+            'content' => $content
+        ]);
     }
 
 }
