@@ -13,12 +13,15 @@ use models\components\ShapeCreator;
 class GraphicEditor
 {
     public function draw($input) {
+        $content = "";
         foreach($input as $component) {
             $creator = new ShapeCreator();
             $drawable = $creator->create($component);
             $drawing = new Drawing($drawable);
 
-            $drawing->draw();
+            $content .= $drawing->draw();
         }
+
+        return $content;
     }
 }

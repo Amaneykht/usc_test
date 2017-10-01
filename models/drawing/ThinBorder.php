@@ -14,7 +14,6 @@ class ThinBorder implements IBorder
 
     public function getBorder()
     {
-        echo "Thin Border: 1". "\n";
-        return 1;
+        return "Thin Border: 1". "\n";
     }
 }

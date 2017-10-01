@@ -19,8 +19,9 @@ class Circle extends Shape
 
     public function draw()
     {
-        parent::draw();
-        echo "Draw Circle!". "\n";
+        $content = parent::draw();
+        $content .= "Draw Circle!" . "\n";
+        return $content;
     }
 
 }

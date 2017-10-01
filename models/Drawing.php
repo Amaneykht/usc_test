@@ -20,6 +20,6 @@ class Drawing
 
     public function draw() {
 
-        $this->_drawable->draw();
+        return $this->_drawable->draw();
     }
 }

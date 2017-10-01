@@ -18,7 +18,8 @@ class Square extends Shape
 
     public function draw()
     {
-        parent::draw();
-        echo "Draw Square!". "\n";
+        $content = parent::draw();
+        $content .= "Draw Square!". "\n";
+        return $content;
     }
 }

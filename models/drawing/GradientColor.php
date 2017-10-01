@@ -15,6 +15,6 @@ class GradientColor implements IColor
     public function setColor($params)
     {
         if (isset($params['color']) && isset($params['gradient_color']))
-            echo "Fill With Color: " . $params['color'] . " And Gradient: " . $params['gradient_color'] . "\n";
+            return "Fill With Color: " . $params['color'] . " And Gradient: " . $params['gradient_color'] . "\n";
     }
 }

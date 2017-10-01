@@ -14,7 +14,6 @@ class WideBorder implements IBorder
 
     public function getBorder()
     {
-        echo "Wide Border: 5". "\n";
-        return 5;
+        return "Wide Border: 5". "\n";
     }
 }

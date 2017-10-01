@@ -20,7 +20,7 @@ class DrawingController
         ];
 
         $graphic_editor = new \models\GraphicEditor();
-        $graphic_editor->draw($shapes);
+        echo $graphic_editor->draw($shapes);
     }
 
 }

@@ -29,9 +29,11 @@ abstract class Shape implements IDrawable
 
     public function draw()
     {
-        $this->Color();
-        $this->Size();
-        $this->Border();
+        $content = "";
+        $content .= $this->Color();
+        $content .= $this->Size();
+        $content .= $this->Border();
+        return $content;
     }
 
     public function Color()
@@ -46,7 +48,7 @@ abstract class Shape implements IDrawable
                 break;
         }
 
-        $color->setColor(['color' => $this->color, 'gradient_color' => $this->gradient_color]);
+        return $color->setColor(['color' => $this->color, 'gradient_color' => $this->gradient_color]);
     }
 
     public function Size()
@@ -61,7 +63,7 @@ abstract class Shape implements IDrawable
                 break;
         }
 
-        $size->canResize();
+        return $size->canResize();
     }
 
     public function Border()
@@ -77,14 +79,14 @@ abstract class Shape implements IDrawable
             case 'custom':
                 if ($this->border != 1 && $this->border != 5)
                     $border = new CustomBorder($this->border);
-                elseif($this->border == 1)
+                elseif ($this->border == 1)
                     $border = new ThinBorder();
                 else
                     $border = new WideBorder();
                 break;
         }
 
-        $border->getBorder();
+        return $border->getBorder();
     }
 
     public function __construct($params)

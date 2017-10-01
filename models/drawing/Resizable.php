@@ -14,7 +14,6 @@ class Resizable implements ISize
 
     public function canResize()
     {
-        echo "Shape Can Resize". "\n";
-        return true;
+        return "Shape Can Resize". "\n";
     }
 }

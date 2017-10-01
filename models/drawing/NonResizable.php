@@ -14,7 +14,6 @@ class NonResizable implements ISize
 
     public function canResize()
     {
-        echo "Shape Can't Resize". "\n";
-        return false;
+        return "Shape Can't Resize". "\n";
     }
 }

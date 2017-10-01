@@ -14,6 +14,6 @@ class FullColor implements IColor
     public function setColor($params)
     {
         if (isset($params['color']))
-            echo "Fill With Color: " . $params['color']. "\n";
+            return "Fill With Color: " . $params['color']. "\n";
     }
 }

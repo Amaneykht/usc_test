@@ -20,7 +20,6 @@ class CustomBorder implements IBorder
 
     public function getBorder()
     {
-        echo "Thin Border: " . $this->_borderValue. "\n";
-        return $this->_borderValue;
+        return "Thin Border: " . $this->_borderValue. "\n";
     }
 }
