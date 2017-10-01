@@ -2,8 +2,6 @@
 /**
  * Created by PhpStorm.
  * User: Amaney-kht
- * Date: 01/10/2017
- * Time: 12:55 م
  */
 
 namespace models\components;
@@ -12,15 +10,29 @@ namespace models\components;
 use models\shapes\Circle;
 use models\shapes\Square;
 
+/**
+ *
+ * This is the class that is responsible of creating the shapes based on the specified type
+ *
+ * Class ShapeCreator
+ * @package models\components
+ */
 class ShapeCreator
 {
-    public function create($params) {
-
+    /**
+     * This method takes the information about the shape as a parameter
+     * and create the required shape based on this information
+     *
+     * @param $params
+     * @return Circle|Square|null
+     */
+    public function create($params)
+    {
         $shape = null;
         $shape_params = isset($params['params']) ? $params['params'] : null;
 
-        if(isset($params['type'])) {
-            switch($params['type']) {
+        if (isset($params['type'])) {
+            switch ($params['type']) {
                 case 'circle' :
                     $shape = new Circle($shape_params);
                     break;

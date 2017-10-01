@@ -2,13 +2,16 @@
 /**
  * Created by PhpStorm.
  * User: Amaney-kht
- * Date: 30/09/2017
- * Time: 11:13 م
  */
 
 namespace models\drawing;
 
-
+/**
+ * This class defines that the shapes will be filled using gradient with the specified color and gradient color
+ *
+ * Class GradientColor
+ * @package models\drawing
+ */
 class GradientColor implements IColor
 {
 

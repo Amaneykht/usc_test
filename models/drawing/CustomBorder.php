@@ -2,13 +2,17 @@
 /**
  * Created by PhpStorm.
  * User: Amaney-kht
- * Date: 30/09/2017
- * Time: 11:21 م
  */
 
 namespace models\drawing;
 
-
+/**
+ * Normally we have built-in options for border, This class defines the non built in borders
+ * So we need to define the border value
+ *
+ * Class CustomBorder
+ * @package models\drawing
+ */
 class CustomBorder implements IBorder
 {
     private $_borderValue;
