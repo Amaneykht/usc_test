@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c6e194b-7f99-4c7e-bb67-de41aea81850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Controller.php" afterPath="$PROJECT_DIR$/controllers/Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/DrawingController.php" afterPath="$PROJECT_DIR$/controllers/DrawingController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Drawing.php" afterPath="$PROJECT_DIR$/models/Drawing.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/GraphicEditor.php" afterPath="$PROJECT_DIR$/models/GraphicEditor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/components/ShapeCreator.php" afterPath="$PROJECT_DIR$/models/components/ShapeCreator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/drawing/CustomBorder.php" afterPath="$PROJECT_DIR$/models/drawing/CustomBorder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/drawing/FullColor.php" afterPath="$PROJECT_DIR$/models/drawing/FullColor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/drawing/GradientColor.php" afterPath="$PROJECT_DIR$/models/drawing/GradientColor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/drawing/IBorder.php" afterPath="$PROJECT_DIR$/models/drawing/IBorder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/drawing/IColor.php" afterPath="$PROJECT_DIR$/models/drawing/IColor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/drawing/IDrawable.php" afterPath="$PROJECT_DIR$/models/drawing/IDrawable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/drawing/ISize.php" afterPath="$PROJECT_DIR$/models/drawing/ISize.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/drawing/NonResizable.php" afterPath="$PROJECT_DIR$/models/drawing/NonResizable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/drawing/Resizable.php" afterPath="$PROJECT_DIR$/models/drawing/Resizable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/drawing/ThinBorder.php" afterPath="$PROJECT_DIR$/models/drawing/ThinBorder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/drawing/WideBorder.php" afterPath="$PROJECT_DIR$/models/drawing/WideBorder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/shapes/Circle.php" afterPath="$PROJECT_DIR$/models/shapes/Circle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/shapes/Shape.php" afterPath="$PROJECT_DIR$/models/shapes/Shape.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/shapes/Square.php" afterPath="$PROJECT_DIR$/models/shapes/Square.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/basic.php" afterPath="$PROJECT_DIR$/views/basic.php" />
     </list>
     <ignored path="usc_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,8 +51,8 @@
       <file leaf-file-name="Drawing.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/Drawing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29209623">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.12371134">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding>
                 <element signature="e#6#57#0#PHP" expanded="true" />
               </folding>
@@ -735,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Drawing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29209623">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.12371134">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding>
             <element signature="e#6#57#0#PHP" expanded="true" />
           </folding>
